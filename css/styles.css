@@ -16,6 +16,8 @@
     --button-blue: #0000ff;
     --border-header: #ececec;
     --border-portfolio-li: #eeeeee;
+    --social-media: #AFB1B8;
+
 }
 
 body {
@@ -142,6 +144,28 @@ padding: 25px 0 24px 0;
     margin-left: auto;
 }
 
+.icon-mail {
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--gray);
+  }
+  
+  .icon-phone {
+    width: 20px;
+    height: 32px;
+    margin-right: 10px;
+    fill: var(--gray);
+  }
+  
+  .icon-mail:hover {
+    fill: var(--blue);
+  }
+  
+  .icon-phone:hover {
+    fill: var(--blue);
+  }
+
 .contact li {
     display: inline;
 }
@@ -212,6 +236,25 @@ padding: 25px 0 24px 0;
 .first-section {
     padding: 94px 0;
 }
+
+.first-section-logo-list {
+    max-width: 1200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .first-section-logo {
+    width: 270px;
+    height: 120px;
+    background: var(--light-gray);
+    border-radius: 4px;
+  }
+
 .first-section-list {
     list-style: none;
     display: flex;
@@ -309,6 +352,75 @@ border-radius: 0px 0px 4px 4px;
     color: var(--almost-black);
 }
 
+.social-media-links {
+    display: flex;
+    justify-content: center
+    padding-bottom: 30px;
+  }
+  
+  .circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle:hover {
+    background-color: var(--blue);
+  }
+  
+  .sm-icon {
+    fill: var(--social-media);
+    ;
+  }
+  
+  .circle:hover .sm-icon {
+    fill: var(--white);
+  }
+
+/* Czwarta sekcja */
+.four-section {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    padding: 94px 0 94px 0;
+  }
+  
+  .h2-four-section {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666em;
+    letter-spacing: 0.03em;
+    color: var(--almost-black);
+  }
+  
+  .four-section-logo-list {
+    max-width: 1200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .four-section-logo {
+    width: 170px;
+    height: 92px;
+    fill: var(--social-media);
+    border: 1px solid var(--social-media);
+    border-radius: 4px;
+  }
+  
+  .four-section-logo:hover {
+    fill: var(--blue);
+  }
+
 footer {
     padding: 60px 0;
     background-color: var(--dark-gray);
@@ -371,6 +483,44 @@ footer {
 .address-link:hover {
     color: var(--blue);
 }
+
+.h5-footer {
+    color: var(--white);
+    text-align: left;
+    padding: 16px 0 20px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .sm-links-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .circle-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .circle-footer:hover {
+    background-color: var(--blue);
+  }
+  
+  .sm-icon-footer {
+    fill: var(--social-media);
+  }
+  
+  .circle-footer:hover .sm-icon-footer {
+    fill: var(--white);
+  }
 
 .portfolio-button-menu {
     display: flex;
