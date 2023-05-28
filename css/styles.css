@@ -395,14 +395,14 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* Czwarta sekcja */
-.four-section {
+.fourth-section {
     max-width: 1600px;
     display: flex;
     justify-content: center;
     padding: 94px 0 94px 0;
 }
 
-.h2-four-section {
+.h2-fourth-section {
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
@@ -412,7 +412,7 @@ border-radius: 0px 0px 4px 4px;
     color: var(--almost-black);
 }
 
-.four-section-logo-list {
+.fourth-section-logo-list {
     max-width: 1200px;
     list-style: none;
     display: flex;
@@ -423,7 +423,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 50px;
 }
 
-.four-section-logo {
+.fourth-section-logo {
     width: 170px;
     height: 92px;
     fill: var(--social-media);
@@ -431,7 +431,7 @@ border-radius: 0px 0px 4px 4px;
     border-radius: 4px;
 }
 
-.four-section-logo:hover {
+.fourth-section-logo:hover {
     fill: var(--blue);
 }
 
