@@ -186,6 +186,8 @@ padding: 25px 0 24px 0;
     color: var(--blue);
 }
 
+/* Sekcja główna */
+
 .hero {
     background-color: var(--dark-gray);
     font-weight: 900;
@@ -196,6 +198,9 @@ padding: 25px 0 24px 0;
     text-transform: uppercase;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/backgrund_img.jpg), url(../images/backgrund_img_overlay.jpg);
+  background-size: cover;
 }
 
 .hero-title {
@@ -210,6 +215,8 @@ padding: 25px 0 24px 0;
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+/* Przycisk sesji głównej */
 
 .hero-button {
     background-color: var(--blue);
@@ -229,9 +236,13 @@ padding: 25px 0 24px 0;
     margin: 0 auto;
 }
 
+/* styl głównego przycisku */
+
 .hero-button:hover {
     color: var(--dark-gray);
 }
+
+/* Pierwszy artykuł sekcji */
 
 .first-section {
     padding: 94px 0;
@@ -279,6 +290,7 @@ padding: 25px 0 24px 0;
     text-transform: uppercase;
 }
 
+/* Druga sekcja - artykuły */
 
 .second-section {
     padding-bottom: 94px;
@@ -309,6 +321,8 @@ padding: 25px 0 24px 0;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* Trzecia sekcja */
 
 .third-section {
     padding: 94px 0 94px 0;
@@ -421,6 +435,8 @@ border-radius: 0px 0px 4px 4px;
     fill: var(--blue);
   }
 
+/* Stopka i linki */
+
 footer {
     padding: 60px 0;
     background-color: var(--dark-gray);
@@ -484,6 +500,8 @@ footer {
     color: var(--blue);
 }
 
+/* Social media linki - Dołącz do nas */
+
 .h5-footer {
     color: var(--white);
     text-align: left;
@@ -494,7 +512,7 @@ footer {
     text-transform: uppercase;
   }
   
-  .sm-links-footer {
+  .social-media-links-footer {
     display: flex;
     justify-content: center;
     gap: 10px;
