@@ -149,22 +149,22 @@ padding: 25px 0 24px 0;
     height: 16px;
     margin-right: 10px;
     fill: var(--gray);
-  }
-  
-  .icon-phone {
+}
+
+.icon-phone {
     width: 20px;
     height: 32px;
     margin-right: 10px;
     fill: var(--gray);
-  }
-  
-  .icon-mail:hover {
+}
+
+.icon-mail:hover {
     fill: var(--blue);
-  }
-  
-  .icon-phone:hover {
+}
+
+.icon-phone:hover {
     fill: var(--blue);
-  }
+}
 
 .contact li {
     display: inline;
@@ -200,7 +200,7 @@ padding: 25px 0 24px 0;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/backgrund_img.jpg), url(../images/backgrund_img_overlay.jpg);
-  background-size: cover;
+    background-size: cover;
 }
 
 .hero-title {
@@ -257,14 +257,14 @@ padding: 25px 0 24px 0;
     padding: 0;
     gap: 30px;
     margin-bottom: 30px;
-  }
-  
-  .first-section-logo {
+}
+
+.first-section-logo {
     width: 270px;
     height: 120px;
     background: var(--light-gray);
     border-radius: 4px;
-  }
+}
 
 .first-section-list {
     list-style: none;
@@ -370,29 +370,29 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center
     padding-bottom: 30px;
-  }
-  
-  .circle {
+}
+
+.circle {
     width: 44px;
     height: 44px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .circle:hover {
+}
+
+.circle:hover {
     background-color: var(--blue);
-  }
-  
-  .sm-icon {
+}
+
+.sm-icon {
     fill: var(--social-media);
     ;
-  }
-  
-  .circle:hover .sm-icon {
+}
+
+.circle:hover .sm-icon {
     fill: var(--white);
-  }
+}
 
 /* Czwarta sekcja */
 .four-section {
@@ -400,9 +400,9 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center;
     padding: 94px 0 94px 0;
-  }
-  
-  .h2-four-section {
+}
+
+.h2-four-section {
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
@@ -410,9 +410,9 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.1666em;
     letter-spacing: 0.03em;
     color: var(--almost-black);
-  }
-  
-  .four-section-logo-list {
+}
+
+.four-section-logo-list {
     max-width: 1200px;
     list-style: none;
     display: flex;
@@ -421,19 +421,19 @@ border-radius: 0px 0px 4px 4px;
     padding: 0;
     gap: 30px;
     margin-bottom: 50px;
-  }
-  
-  .four-section-logo {
+}
+
+.four-section-logo {
     width: 170px;
     height: 92px;
     fill: var(--social-media);
     border: 1px solid var(--social-media);
     border-radius: 4px;
-  }
-  
-  .four-section-logo:hover {
+}
+
+.four-section-logo:hover {
     fill: var(--blue);
-  }
+}
 
 /* Stopka i linki */
 
@@ -510,15 +510,15 @@ footer {
     font-size: 14px;
     line-height: 0.03em;
     text-transform: uppercase;
-  }
-  
-  .social-media-links-footer {
+}
+
+.social-media-links-footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-  }
-  
-  .circle-footer {
+}
+
+.circle-footer {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -526,19 +526,19 @@ footer {
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
-  }
-  
-  .circle-footer:hover {
+}
+
+.circle-footer:hover {
     background-color: var(--blue);
-  }
-  
-  .sm-icon-footer {
+}
+
+.sm-icon-footer {
     fill: var(--social-media);
-  }
-  
-  .circle-footer:hover .sm-icon-footer {
+}
+
+.circle-footer:hover .sm-icon-footer {
     fill: var(--white);
-  }
+}
 
 .portfolio-button-menu {
     display: flex;
