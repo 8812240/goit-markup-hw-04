@@ -9,8 +9,9 @@
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!--nagłówek strony-->
@@ -36,7 +37,21 @@
             <!--linki do kontaktu-->
             <ul class="contact">
                 <li>
+                    <a href="mailto:info@devstudio.com">
+                        <svg class="icon-mail">
+                          <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                      </a>
+                </li>
+                <li>
                     <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+48111111111">
+                        <svg class="icon-phone">
+                          <use href="./images/icons.svg#icon-smartphone" y="-6"></use>
+                        </svg>
+                      </a>
                 </li>
                 <li>
                     <a class="tel" href="tel:+48111111111">(48)111-111-111</a>
@@ -67,7 +82,7 @@
                 </li>
             </ul>
             <!--Zdjecia pierwszy rzad-->
-            <ul class="portfolio-section">
+            <ul class="portfolio-section-item">
                 <li>
                     <img alt="komputer wyswietla 3 profile osob" width="370" height="294" src="./images/laptop.jpg">
                     <div class="portfolio-card">
@@ -139,7 +154,7 @@
     </main>
     <footer>
         <!--stopka wraz z linkiem do strony i adres-->
-        <div class="container">
+        <div class="footer-container">
             <div class="footer-logo">
         <a class="logo-footer" href="./index.html"><span class="logo-blue-footer">Web</span>Studio</a>
     </div>
