@@ -17,7 +17,6 @@
     --border-header: #ececec;
     --border-portfolio-li: #eeeeee;
     --social-media: #AFB1B8;
-
 }
 
 body {
@@ -93,8 +92,8 @@ a {
 }
 
 .logo-blue {
-color: var(--blue);
-padding: 25px 0 24px 0;
+    color: var(--blue);
+    padding: 25px 0 24px 0;
 }
 
 .logo:hover,
@@ -148,14 +147,14 @@ padding: 25px 0 24px 0;
     width: 20px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--gray);
+    fill: currentColor;
 }
 
 .icon-phone {
     width: 20px;
     height: 32px;
     margin-right: 10px;
-    fill: var(--gray);
+    fill: currentColor;
 }
 
 .icon-mail:hover {
@@ -173,7 +172,6 @@ padding: 25px 0 24px 0;
 .mail {
     color: var(--gray);
     text-decoration: none;
-
 }
 
 .tel {
@@ -199,8 +197,12 @@ padding: 25px 0 24px 0;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/backgrund_img.jpg), url(../images/backgrund_img_overlay.jpg);
+    url(../images/backgrund_img.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -368,26 +370,26 @@ border-radius: 0px 0px 4px 4px;
 
 .social-media-links {
     display: flex;
-    justify-content: center
-    padding-bottom: 30px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .circle {
     width: 44px;
     height: 44px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--social-media);
 }
 
 .circle:hover {
+    border-radius: 50%;
     background-color: var(--blue);
 }
 
 .sm-icon {
     fill: var(--social-media);
-    ;
 }
 
 .circle:hover .sm-icon {
@@ -403,12 +405,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .h2-fourth-section {
-    text-align: center;
     margin-bottom: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1666em;
-    letter-spacing: 0.03em;
+    line-height: 1.16;
     color: var(--almost-black);
 }
 
@@ -504,11 +505,9 @@ footer {
 
 .h5-footer {
     color: var(--white);
-    text-align: left;
-    padding: 16px 0 20px 0;
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -583,14 +582,19 @@ footer {
     padding: 20px 24px;
 }
 
-.portfolio-section {
+.portfolio-section-item {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.portfolio-section p {
+.portfolio-section-item p {
     color: var(--gray);
+}
+
+.portfolio-section-item li:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .h2-portfolio-section {
