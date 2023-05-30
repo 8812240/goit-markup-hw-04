@@ -172,11 +172,15 @@ a {
 .mail {
     color: var(--gray);
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .tel {
     color:var(--gray);
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .mail:hover,
@@ -188,12 +192,7 @@ a {
 
 .hero {
     background-color: var(--dark-gray);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -251,19 +250,18 @@ a {
 }
 
 .first-section-logo-list {
-    max-width: 1200px;
-    list-style: none;
+    background: var(--light-gray);
+    border-radius: 4px;
+    height: 120px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    padding: 0;
-    gap: 30px;
     margin-bottom: 30px;
 }
 
 .first-section-logo {
-    width: 270px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     background: var(--light-gray);
     border-radius: 4px;
 }
@@ -338,7 +336,7 @@ a {
     gap: 30px;
 }
 
-.third-section-list li {
+.third-section-li {
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
@@ -357,6 +355,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--gray);
+    margin-bottom: 16px;
 }
 
 .h2-third-section {
@@ -378,18 +377,24 @@ border-radius: 0px 0px 4px 4px;
     width: 44px;
     height: 44px;
     display: flex;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
     color: var(--social-media);
 }
 
 .circle:hover {
-    border-radius: 50%;
     background-color: var(--blue);
+    color: var(--white);
+}
+
+.circle:focus {
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .sm-icon {
-    fill: var(--social-media);
+    fill: currentColor;
 }
 
 .circle:hover .sm-icon {
@@ -398,9 +403,6 @@ border-radius: 0px 0px 4px 4px;
 
 /* Czwarta sekcja */
 .fourth-section {
-    max-width: 1600px;
-    display: flex;
-    justify-content: center;
     padding: 94px 0 94px 0;
 }
 
@@ -414,21 +416,34 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .fourth-section-logo-list {
-    max-width: 1200px;
-    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
     gap: 30px;
-    margin-bottom: 50px;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid currentColor;
+    color: var(--social-media);
+    border-radius: 4px;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    color: var(--blue);
+}
+    
+.customers-icon {
+    fill:currentColor;
 }
 
 .fourth-section-logo {
-    width: 170px;
-    height: 92px;
-    fill: var(--social-media);
-    border: 1px solid var(--social-media);
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
     border-radius: 4px;
 }
 
@@ -462,6 +477,11 @@ footer {
 .logo-footer:hover,
 .logo-blue-footer:hover {
     text-decoration: underline solid var(--blue);
+}
+
+.container-wrap {
+    display: flex;
+    align-items: baseline;
 }
 
 .address-link {
@@ -509,6 +529,13 @@ footer {
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-h5 {
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
 }
 
 .social-media-links-footer {
