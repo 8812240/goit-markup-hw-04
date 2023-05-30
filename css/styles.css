@@ -533,9 +533,14 @@ footer {
 }
 
 .footer-h5 {
-    display: flex;
     gap: 10px;
     margin-left: 70px;
+}
+
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .social-media-links-footer {
